@@ -1,0 +1,26 @@
+{
+  "id": "evt_test_webhook",
+  "object": "event",
+  "type": "payout.paid",
+  "data": {
+    "object": {
+      "id": "po_test_123456",
+      "object": "payout",
+      "amount": 10000,
+      "arrival_date": 1702454400,
+      "created": 1702368000,
+      "currency": "usd",
+      "description": "Test payout",
+      "destination": "ba_test_123",
+      "metadata": {
+        "withdrawal_id": "28ce12f2-2870-4b68-bbd4-8340c58015ad",
+        "wallet_id": "test_wallet",
+        "organization_id": "22222222-2222-2222-2222-222222222222"
+      },
+      "method": "standard",
+      "source_type": "card",
+      "status": "paid",
+      "type": "bank_account"
+    }
+  }
+}

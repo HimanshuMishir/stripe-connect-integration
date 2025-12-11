@@ -1,0 +1,54 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+/pkg/
+
+# Database
+*.db
+*.sql.backup
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+
+# Test coverage
+coverage/
+*.cover
+*.coverprofile
+
+# Temporary files
+tmp/
+temp/
+*.tmp
